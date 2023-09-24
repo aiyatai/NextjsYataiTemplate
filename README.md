@@ -12,6 +12,8 @@ Next.js + TypeScript + Tailwind CSS + NextAuth.js を使った Yatai のアプ�
 
 .env.local に以下のように記述してください。
 
+適宜必要な値は Yatai の開発者ページから取得してください。
+
 ```
 CLIENT_ID=hogehoge
 CLIENT_SECRET=hogehoge
