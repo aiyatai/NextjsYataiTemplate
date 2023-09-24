@@ -11,7 +11,6 @@ export async function POST(request: Request) {
   }
 
   try {
-    // 300文字ごとにquantityを計算
     const quantity = 1;
     const payment = await reportPaymentFromUid(
       session.user.id,
